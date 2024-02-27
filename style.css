@@ -1,0 +1,122 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+html{
+    font-size: 65.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+section{
+    padding: 2rem 9%;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 2rem;
+    background: whitesmoke;
+    color: black;
+    padding: .9rem 3.5rem;
+    font-size: 1.7rem;
+}
+header{
+    position: fixed;
+    top: 30px; left: 0; right: 0;
+    background: #fff;
+    padding: 2rem 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bolder;
+}
+
+header .navbar a{
+
+    font-size: 1.5rem;
+    padding: 0 1.2rem;
+    color: gray;
+}
+
+header .navbar :hover{
+    color: black;
+}
+header .icons a{
+    font-size: 2rem;
+    color: gray;
+    margin-left: 2.5rem;
+}
+
+header .icons a:hover{
+    color: black;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background:url(/Home\ \(2\).jpg) no-repeat ;
+    background-size: contain;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 3.5rem;
+    text-decoration: solid;
+    color: #fff;
+
+}
+ 
+.home .content p{
+    font-size: 2.5rem;
+    text-decoration: solid;
+    color: rgb(231, 226, 226);
+}
+
+section .heading{
+    text-align: center;
+    font-size: 2.5rem;
+    color: gray;
+}
+
+.products .box-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.products .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: none;
+    border-radius: .5rem;
+    border: 1 rem black;
+    position: relative;
+}
+
+.products .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.products .box-container .box .image img{
+    height: auto; width: 350px;
+}
+
